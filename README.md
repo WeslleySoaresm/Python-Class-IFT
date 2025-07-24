@@ -190,4 +190,3 @@ Para verificar se um pacote foi instalado, use `pip3 show nome_do_pacote`.
 
 -----
 
-Este é o começo da jornada\! Continue praticando, construindo pequenos projetos e, o mais importante, se divertindo no processo.
