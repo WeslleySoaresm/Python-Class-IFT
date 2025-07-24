@@ -7,17 +7,17 @@
 Olá\! Excelente escolha começar a estudar Python. É uma linguagem poderosa, versátil e ótima para iniciantes. Este documento é um resumo dos meus primeiros passos, servindo como um guia para quem também está começando.
 
 ## Índice
+- [1. Configurando o Ambiente (macOS)](#1-configurando-o-ambiente-macos)
+- [2. O Terminal é Seu Amigo: Comandos Essenciais](#2-o-terminal-é-seu-amigo-comandos-essenciais)
+- [3. Integrando o Terminal com o VS Code](#3-integrando-o-terminal-com-o-vs-code)
+- [4. Conceitos Fundamentais do Python](#4-conceitos-fundamentais-do-python)
+    - [Tipagem: Forte e Dinâmica](#tipagem-forte-e-dinâmica)
+    - [Constantes em Python: Uma Convenção](#constantes-em-python-uma-convenção)
+    - [Variáveis e Operadores](#variáveis-e-operadores)
+    - [Estruturas Condicionais e Laços](#estruturas-condicionais-e-laços)
+    - [Funções e Entradas do Usuário](#funções-e-entradas-do-usuário)
+- [5. Instalando Pacotes com pip](#5-instalando-pacotes-com-pip)
 
-1.  [Configurando o Ambiente (macOS)]
-2.  [O Terminal é Seu Amigo: Comandos Essenciais]
-3.  [Integrando o Terminal com o VS Code]
-4.  [Conceitos Fundamentais do Python]
-      * [Tipagem: Forte e Dinâmica]
-      * [Constantes em Python: Uma Convenção]
-      * [Variáveis e Operadores]
-      * [Estruturas Condicionais e Laços]
-      * [Funções e Entradas do Usuário]
-5.  [Instalando Pacotes com `pip`]
 
 -----
 
