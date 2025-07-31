@@ -17,7 +17,9 @@ Olá\! Excelente escolha começar a estudar Python. É uma linguagem poderosa, v
     - [Estruturas Condicionais e Laços](#estruturas-condicionais-e-laços)
     - [Funções e Entradas do Usuário](#funções-e-entradas-do-usuário)
 - [5. Instalando Pacotes com pip](#5-instalando-pacotes-com-pip)
-
+- [6. Tipos de Dados](#6-Tipos-de-Dados)
+- [7. Tudo Sobre Strings](#7-Tudo-Sobre-Strings)
+- [8. Conversão de Unidades de Tempo](#8-Conversão-de-Unidades-de-Tempo)
 
 -----
 
@@ -190,3 +192,56 @@ Para verificar se um pacote foi instalado, use `pip3 show nome_do_pacote`.
 
 -----
 
+-----
+
+#### 6\. Tipos de Dados
+
+  * **`String` (str):** Usado para texto. É imutável, o que significa que seu valor não pode ser alterado após a criação. Ex: `"Olá, mundo!"`.
+  * **`Integer` (int):** Representa números inteiros. Ex: `10`, `42`.
+  * **`Float` (float):** Representa números de ponto flutuante (com casas decimais). Ex: `3.14`, `2.5`.
+  * **`Boolean` (bool):** Representa valores lógicos, sendo apenas `True` ou `False`.
+  * **`List` (list):** Uma coleção ordenada e **mutável** de itens. Os itens podem ser de diferentes tipos. Ex: `["maçã", 2, True]`.
+  * **`Tuple` (tuple):** Uma coleção ordenada e **imutável** de itens. Ex: `("terra", "água", "fogo")`.
+  * **`Dictionary` (dict):** Uma coleção não ordenada de pares `chave: valor`. As chaves devem ser únicas. Ex: `{"nome": "João", "idade": 30}`.
+
+#### 7\. Tudo Sobre Strings
+
+Strings são objetos poderosos em Python. Aqui estão alguns conceitos importantes:
+
+  * **Criação:** Podem ser criadas com aspas simples (`' '`), duplas (`" "`) ou triplas (`""" """`). As triplas são úteis para strings de várias linhas.
+  * **F-Strings:** A forma mais moderna e recomendada de formatar strings. Permitem incorporar variáveis diretamente.
+    ```python
+    nome = "Weslley"
+    print(f"Olá, {nome}!")
+    ```
+  * **Concatenação:** A união de strings pode ser feita com o operador `+`. Ex: `"Olá" + " " + "Mundo"`.
+  * **Métodos Comuns:**
+      * `.upper()`: Retorna a string em maiúsculas.
+      * `.lower()`: Retorna a string em minúsculas.
+      * `.strip()`: Remove espaços em branco do início e do fim.
+      * `.split(delimitador)`: Divide a string em uma lista de substrings, usando um delimitador.
+      * `.replace(old, new)`: Substitui todas as ocorrências de uma substring por outra.
+  * **Indexação e Fatiamento (Slicing):**
+      * `string[0]` acessa o primeiro caractere.
+      * `string[1:4]` acessa os caracteres do índice 1 até o 3.
+
+#### 8\. Conversão de Unidades de Tempo
+
+É possível criar funções simples para converter unidades de tempo.
+
+  * **Converter Horas para Minutos:**
+    ```python
+    def horas_para_minutos(horas):
+        return horas * 60
+
+    print(horas_para_minutos(2))  # Saída: 120
+    ```
+  * **Converter Minutos para Horas:**
+    ```python
+    def minutos_para_horas(minutos):
+        return minutos / 60
+
+    print(minutos_para_horas(180)) # Saída: 3.0
+    ```
+
+    ----
