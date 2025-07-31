@@ -194,10 +194,6 @@ Para verificar se um pacote foi instalado, use `pip3 show nome_do_pacote`.
 
 -----
 
-### README: Conceitos de Python
-
-Este é um resumo dos principais conceitos que aprendi em Python, organizados para facilitar a consulta.
-
 #### 6\. Tipos de Dados
 
   * **`String` (str):** Usado para texto. É imutável, o que significa que seu valor não pode ser alterado após a criação. Ex: `"Olá, mundo!"`.
