@@ -20,6 +20,9 @@ Olá\! Excelente escolha começar a estudar Python. É uma linguagem poderosa, v
 - [6. Tipos de Dados](#6-Tipos-de-Dados)
 - [7. Tudo Sobre Strings](#7-Tudo-Sobre-Strings)
 - [8. Conversão de Unidades de Tempo](#8-Conversão-de-Unidades-de-Tempo)
+- [9. Analisador de Propriedades de Números](#9-Analisador-de-Propriedades-de-Números)
+- [10. Calculadora Simples (duas versões)](#10-Calculadora-Simples-duas-versões)
+- [11. Conversor de Tipos de Dados](#11-Conversor-de-Tipos-de-Dados)
 
 -----
 
@@ -245,3 +248,76 @@ Strings são objetos poderosos em Python. Aqui estão alguns conceitos important
     ```
 
     ----
+#### 9\. Analisador de Propriedades de Números
+Este é um script robusto que solicita um número inteiro ao usuário e realiza uma análise completa, verificando diversas propriedades matemáticas e da teoria dos números.
+
+O que ele faz?
+Ao receber um número, o script avalia e informa se ele se encaixa nas seguintes categorias:
+
+Básicas: Positivo, Negativo ou Zero.
+
+Paridade: Par ou Ímpar.
+
+Propriedades Fundamentais:
+
+Número Primo
+
+Quadrado Perfeito
+
+Cubo Perfeito
+
+Sequências e Tipos Especiais:
+
+Número de Fibonacci
+
+Número de Armstrong
+
+Número Perfeito, Abundante ou Deficiente
+
+Número Feliz ou Triste
+
+Números Poligonais:
+
+Triangular, Pentagonal, Hexagonal, Heptagonal, Octagonal.
+
+Conceitos Aplicados
+Funções (def): O código é modularizado em funções de verificação (ex: is_prime(), is_happy()).
+
+Estruturas de Decisão (if/else): Para apresentar os resultados de cada verificação.
+
+Laços (for e while): Essenciais para os algoritmos de números primos, Fibonacci e felizes.
+
+Estruturas de Dados: Uso inteligente de set para detectar ciclos em números felizes e list para manipular dígitos.
+
+Lógica Matemática: Implementação de diversos algoritmos e fórmulas matemáticas.
+
+#### 10\. Calculadora Simples (duas versões)
+Um programa clássico para treinar lógica, com duas abordagens diferentes para a tomada de decisão.
+
+O que ele faz?
+A calculadora apresenta um menu com quatro operações básicas (Adição, Subtração, Multiplicação e Divisão). O usuário escolhe a operação e insere dois números para obter o resultado. O programa também trata o caso de divisão por zero.
+
+As Duas Versões
+Versão 1 (Clássica): Utiliza uma estrutura if-elif-else para determinar qual operação matemática executar. É a abordagem fundamental para controle de fluxo.
+
+Versão 2 (Moderna): Utiliza a estrutura match-case (disponível a partir do Python 3.10). Esta versão mostra uma forma mais recente e, muitas vezes, mais legível de lidar com uma correspondência de valor contra múltiplos casos possíveis.
+
+Conceitos Aplicados
+Entrada e Saída (input/print): Para interagir com o usuário.
+
+Conversão de Tipos (float): Para garantir que a entrada do usuário possa ser usada em cálculos decimais.
+
+Controle de Fluxo: Comparação direta entre if-elif-else e match-case.
+
+Tratamento de Erro Básico: Verificação da divisão por zero para evitar que o programa quebre.
+
+#### 11\. Conversor de Tipos de Dados
+Um script simples, mas fundamental, focado em demonstrar a conversão explícita entre os tipos de dados mais comuns em Python.
+
+O que ele faz?
+O script pega um número fornecido pelo usuário (que é lido como string) e o converte para int e float, exibindo o resultado e o tipo de cada conversão.
+
+Conceitos Aplicados
+Tipos de Dados Fundamentais: str, int, float.
+
+Funções de Conversão (Casting): Uso claro das funções int(), float() e str() para converter um valor de um tipo para outro.
