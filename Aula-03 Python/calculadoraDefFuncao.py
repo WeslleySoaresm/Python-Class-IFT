@@ -1,3 +1,7 @@
+# Aula-03 Python - Calculadora Simples com Funções
+
+# definição de funções para operações matemáticas
+
 def somar(num1, num2):
     return num1 + num2
 
@@ -8,12 +12,12 @@ def multiplicar(num1, num2):
     return num1 * num2
 
 def dividir(num1, num2):
-    if 1
-    num2 != 0:
+    if num2 != 0:
         return num1 / num2
     else:
         raise ValueError("Divisão por zero não é permitida.")
 
+# Funções para exibir o menu e entrar com os números
 def exibir_menu():
     print("Bem-vindo à Calculadora Simples!")
     print("Selecione a operação:")
@@ -22,6 +26,8 @@ def exibir_menu():
     print("3. Multiplicação")
     print("4. Divisão")
     return input("Digite o número da operação (1/2/3/4): ")
+
+# Função para entrar com os números
 
 def entrar_numeros():
     num1 = float(input("Digite o primeiro número: "))
@@ -32,6 +38,8 @@ def entrar_numeros():
 operacao = exibir_menu()
 num1, num2 = entrar_numeros()
 
+# Usando match-case para selecionar a operação
+# Esta é uma nova abordagem que substitui os if-elif-else por match-case
 match operacao:
     case '1':
         print("Resultado:", somar(num1, num2))
