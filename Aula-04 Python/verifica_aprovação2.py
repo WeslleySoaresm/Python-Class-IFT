@@ -7,6 +7,8 @@ turma = [
     ["João", 7, 6]
 ]
 
+APROVAÇÃO = 6 
+
 print("--- Boletim da Turma ---")
 
 # 1. Percorrer cada 'aluno' na lista 'turma'
@@ -54,3 +56,30 @@ for aluno_aprovado in aprovados:
 print("\n--- ❌ Alunos Reprovados ---")
 for aluno_reprovado in reprovados:
     print(aluno_reprovado)
+
+
+#Fazendo calculadora com função def 
+
+def exibir_aluno(aluno):
+    print(aluno[0], aluno[1], aluno[2])
+
+
+def calcular_media(nota1, nota2):
+    media = (nota1 + nota2) / 2
+    return media
+
+def exibir_aprovação(media):
+    if(media >= APROVAÇÃO):
+     print("Aluno aprovado")
+    else:
+        print("Aluno em prova final")
+
+
+for aluno in turma:
+    exibir_aluno(aluno)
+    media = calcular_media(aluno[1], aluno[2])
+    print(media)
+    exibir_aprovação(media)        
+
+
+
